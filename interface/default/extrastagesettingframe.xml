@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="ExtraStageList">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+
+	<FRAME item="ExtraStageSettingFrame">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>500</W>
+			<H>340</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<TEXT>Game Option+</TEXT>
+		<VISIBLE>false</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+	</FRAME>
+
+	<LABEL item="GravityValueLabel" parent="ExtraStageSettingFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>10</X>
+			<Y>40</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Gravity Value</TEXT>
+		<TOOLTIP>Make's your gravity higher or lower.</TOOLTIP>
+	</LABEL>
+	<COMBOBOX item="GravityValueComboBox" parent="ExtraStageSettingFrame">
+		<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+		<FONT>FONTa10_O2Wht</FONT>
+		<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+		<BOUNDS>
+			<X>115</X>
+			<Y>40</Y>
+			<W>100</W>
+			<H>24</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+	</COMBOBOX>		
+	
+	<LABEL item="JumpValueLabel" parent="ExtraStageSettingFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>10</X>
+			<Y>70</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Jump Value</TEXT>
+		<TOOLTIP>Make's your jump higher or lower.</TOOLTIP>
+	</LABEL>
+	<COMBOBOX item="JumpValueComboBox" parent="ExtraStageSettingFrame">
+		<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+		<FONT>FONTa10_O2Wht</FONT>
+		<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+		<BOUNDS>
+			<X>115</X>
+			<Y>70</Y>
+			<W>100</W>
+			<H>24</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+	</COMBOBOX>		
+	
+	<LABEL item="SpeedValueLabel" parent="ExtraStageSettingFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>10</X>
+			<Y>100</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Speed Value</TEXT>
+		<TOOLTIP>Make's your speed higher or lower.</TOOLTIP>
+	</LABEL>
+	<COMBOBOX item="SpeedValueComboBox" parent="ExtraStageSettingFrame">
+		<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+		<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+		<BOUNDS>
+			<X>115</X>
+			<Y>100</Y>
+			<W>100</W>
+			<H>24</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+	</COMBOBOX>	
+	<LABEL item="WeaponTypeLabel" parent="ExtraStageSettingFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>10</X>
+			<Y>130</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Weapon Type</TEXT>
+		<TOOLTIP>Allow certain weapons only.</TOOLTIP>
+	</LABEL>
+	<COMBOBOX item="WeaponTypeValueComboBox" parent="ExtraStageSettingFrame">
+		<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+		<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+		<ITEMHEIGHT>18</ITEMHEIGHT>
+		<BOUNDS>
+			<X>115</X>
+			<Y>130</Y>
+			<W>100</W>
+			<H>24</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+	</COMBOBOX>
+	<LABEL item="DMGTypeLabel" parent="ExtraStageSettingFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>10</X>
+			<Y>160</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Focus Damage</TEXT>
+		<TOOLTIP>Focusing damage into a part.</TOOLTIP>
+	</LABEL>
+	<COMBOBOX item="DMGTypeComboBox" parent="ExtraStageSettingFrame">
+		<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+		<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+		<BOUNDS>
+			<X>115</X>
+			<Y>160</Y>
+			<W>100</W>
+			<H>24</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+		<COMBOTYPE>1</COMBOTYPE>
+	</COMBOBOX>	
+	<LABEL item="RTDModeLabel" parent="ExtraStageSettingFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>10</X>
+			<Y>190</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Roll the Dice</TEXT>
+		<TOOLTIP>RTD Mode, Feeling lucky?</TOOLTIP>
+	</LABEL>
+	<COMBOBOX item="RTDModeComboBox" parent="ExtraStageSettingFrame">
+		<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+		<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+		<ITEMHEIGHT>18</ITEMHEIGHT>
+		<BOUNDS>
+			<X>115</X>
+			<Y>190</Y>
+			<W>100</W>
+			<H>24</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+	</COMBOBOX>
+	<LABEL item="GladiatorLabel" parent="ExtraStageSettingFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>10</X>
+			<Y>220</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Gladiator</TEXT>
+		<TOOLTIP>No Guns, No Items.</TOOLTIP>
+	</LABEL>
+	<COMBOBOX item="GladiatorComboBox" parent="ExtraStageSettingFrame">
+		<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+		<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+		<ITEMHEIGHT>18</ITEMHEIGHT>
+		<BOUNDS>
+			<X>115</X>
+			<Y>220</Y>
+			<W>100</W>
+			<H>24</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+	</COMBOBOX>	
+	<LABEL item="TeleportationLabel" parent="ExtraStageSettingFrame">
+		<FONT>FONTa10_O2Wht</FONT>
+		<BOUNDS>
+			<X>10</X>
+			<Y>250</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Teleport</TEXT>
+		<TOOLTIP>Enable the teleportation system.</TOOLTIP>
+	</LABEL>
+	<COMBOBOX item="TeleportationComboBox" parent="ExtraStageSettingFrame">
+		<LISTBOXLOOK>CustomListBoxLook</LISTBOXLOOK>
+		<BUTTONLOOK>ListBoxButtonLook</BUTTONLOOK>
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+		<ITEMHEIGHT>18</ITEMHEIGHT>
+		<BOUNDS>
+			<X>115</X>
+			<Y>250</Y>
+			<W>100</W>
+			<H>24</H>
+		</BOUNDS>
+		<DROPSIZE>80</DROPSIZE>
+	</COMBOBOX>		
+	<!-- COMBOBOX END-->
+	<LABEL item="EspNameLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>260</X>
+			<Y>40</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>ESP Name</TEXT>
+		<TOOLTIP>Enable the ESP system.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="EspName" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>220</X>
+			<Y>38</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="InstantReloadLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>260</X>
+			<Y>70</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Instant Reload</TEXT>
+		<TOOLTIP>Reload time are has no effect.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="InstantReload" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>220</X>
+			<Y>68</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="NoFlipLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>260</X>
+			<Y>100</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Flip</TEXT>
+		<TOOLTIP>Disable the gladiators flip/e-lunge.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="NoFlip" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>220</X>
+			<Y>98</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="NoMassiveLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>260</X>
+			<Y>130</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Massive</TEXT>
+		<TOOLTIP>Disable the gladiators massives.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="NoMassive" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>220</X>
+			<Y>128</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="InfinAmmoLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>260</X>
+			<Y>160</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Infinite Ammo</TEXT>
+		<TOOLTIP>Enable the unlimited ammo.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="InfinAmmo" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>220</X>
+			<Y>158</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="SpecialWeaponLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>260</X>
+			<Y>190</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Special Weapon</TEXT>
+		<TOOLTIP>Disable the special weapon items.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="SpecialWeapon" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>220</X>
+			<Y>188</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="GunsLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>260</X>
+			<Y>220</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Guns</TEXT>
+		<TOOLTIP>Disable the weapon items.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="Guns" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>220</X>
+			<Y>218</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="GrappleLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>260</X>
+			<Y>250</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Grapple</TEXT>
+		<TOOLTIP>Enable the grapple mode, become a spider-man.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="Grapple" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>220</X>
+			<Y>248</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>	
+	
+	<LABEL item="AntiLeadLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>390</X>
+			<Y>40</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Anti Lead</TEXT>
+		<TOOLTIP>Disable the anti-lead system.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="AntiLead" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>350</X>
+			<Y>38</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="NoExpLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>390</X>
+			<Y>70</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Experience</TEXT>
+		<TOOLTIP>Disable the experience system.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="NoExp" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>350</X>
+			<Y>68</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="NoDMGLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>390</X>
+			<Y>100</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Damage</TEXT>
+		<TOOLTIP>Disable the damage system.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="NoDMG" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>350</X>
+			<Y>98</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="ClothesLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>390</X>
+			<Y>130</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Clothes</TEXT>
+		<TOOLTIP>Disable the clothes items.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="Clothes" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>350</X>
+			<Y>128</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="RingsLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>390</X>
+			<Y>160</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Rings</TEXT>
+		<TOOLTIP>Disable the rings items.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="Rings" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>350</X>
+			<Y>158</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="AvatarLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>390</X>
+			<Y>190</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Avatar</TEXT>
+		<TOOLTIP>Disable the avatars items.</TOOLTIP>
+	</LABEL>
+	<BUTTON item="Avatar" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>350</X>
+			<Y>188</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="VampireLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>390</X>
+			<Y>220</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Vampire</TEXT>
+		<TOOLTIP>Enable the vampire mode, drink someone maybe?</TOOLTIP>
+	</LABEL>
+	<BUTTON item="Vampire" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>350</X>
+			<Y>218</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>
+	
+	<LABEL item="GhostLabel" parent="ExtraStageSettingFrame">
+		<BOUNDS>
+			<X>390</X>
+			<Y>250</Y>
+			<W>150</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>Ghost</TEXT>
+		<TOOLTIP>Enable the ghost mode, BOO!</TOOLTIP>
+	</LABEL>
+	<BUTTON item="Ghost" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>Custom1ButtonLook</BUTTONLOOK>
+		<PUSHBUTTON/>
+		<BOUNDS>
+			<X>350</X>
+			<Y>248</Y>
+			<W>24</W>
+			<H>24</H>
+		</BOUNDS>
+	</BUTTON>	
+	
+	<BUTTON item="ExtraStageSettingApplyBtn" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>	
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>300</X>
+			<Y>300</Y>
+			<W>89</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT>STR:UI_COMMON_OK</TEXT>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+	</BUTTON>
+	
+	<BUTTON item="ParentClose" parent="ExtraStageSettingFrame">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>400</X>
+			<Y>300</Y>
+			<W>89</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXT>STR:UI_COMMON_CANCEL</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+</XML>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+
+	<NPCModel></NPCModel>
+	<AddBaseModel name="ghast" filename="ghast.elu"> </AddBaseModel>
+	<MakeAnimationMap ></MakeAnimationMap>
+
+	<AddAnimation name="idle"		filename="minecraftnick.elu.ani" 	 	gm="0"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="neglect"		filename="minecraftnick.elu.ani" 	 	gm="0"	motion_type="0" motion_loop_type="loop" > 
+	</AddAnimation>
+
+
+	<AddAnimation name="melee_attacked1"	filename="gminecraftnick.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="melee_attacked2"	filename="minecraftnick.elu.ani" gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="range_attacked1"	filename="minecraftnick.elu.ani" 	gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+	<AddAnimation name="lightning"		filename="minecraftnick.elu.ani"  gm="1"	motion_type="0" motion_loop_type="loop" > </AddAnimation>
+
+	<AddAnimation name="melee_attack"	filename="minecraftnick.elu.ani"		gm="1"	motion_type="0" motion_loop_type="loop" 	> 
+		<AddAnimEvent eventtype="sound" filename="41_Golem_attack" 			beginframe="0" >	</AddAnimEvent>
+	</AddAnimation>
+
+	<AddAnimation name="run"		filename="minecraftnick.elu.ani"		gm="1" 	motion_type="0" motion_loop_type="loop" > 
+	</AddAnimation>
+
+	<AddAnimation name="die"		filename="minecraftnick.elu.ani"		gm="1"	motion_type="0" motion_loop_type="lastframe" 	> 
+	</AddAnimation>
+
+	<AddAnimation name="special_attack1" 	filename="minecraftnick.elu.ani" gm="1"	motion_type="0" motion_loop_type="lastframe" 	> 
+	</AddAnimation>
+	<AddAnimation name="special_attack2" 	filename="minecraftnick.elu.ani" gm="1"	motion_type="0" motion_loop_type="lastframe" 	> 
+	</AddAnimation>
+
+	<AddAnimation name="stunned" 		filename="minecraftnick.elu.ani"	gm="1"	motion_type="0" motion_loop_type="lastframe" 	> </AddAnimation>
+
+</xml>

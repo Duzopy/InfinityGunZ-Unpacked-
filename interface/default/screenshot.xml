@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="ScreenShot">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	
+	<FRAME item="ScreenShot">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>500</W>
+			<H>295</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>Screen Shots</TEXT>
+	</FRAME>
+	
+	<!-- LABEL : 파일 선택 표시 라벨 -->
+	<LABEL item="Label" parent="ScreenShot">
+		<FONT>FONTa10_O2Wht</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>16</X>
+			<Y>33</Y>
+			<W>266</W>
+			<H>24</H>
+		</BOUNDS>
+		<TEXT>../My Documents/Extra GunZ/Screenshots</TEXT>
+	</LABEL>
+	
+	<!-- LISTBOX : 리플레이 파일 리스트 -->
+	<LISTBOX item="ScreenShot_List" parent="ScreenShot">
+		<BOUNDS>
+			<X>16</X>
+			<Y>56</Y>
+			<W>466</W>
+			<H>150</H>
+		</BOUNDS>
+		<ITEMHEIGHT>16</ITEMHEIGHT>
+	</LISTBOX>
+	
+	<!-- TEXTAREA : 표시 -->
+	<TEXTAREA item="Label" parent="ScreenShot">
+		<FONT>FONTa10</FONT>
+		<TEXTCOLOR>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>16</X>
+			<Y>210</Y>
+			<W>480</W>
+			<H>50</H>
+		</BOUNDS>
+		<TEXT>Basic screen shot viewer, more functions will be added and better optimization.</TEXT>
+		<EDITABLE>false</EDITABLE>
+	</TEXTAREA>
+	
+	<!-- BUTTON : 리플레이 보기 버튼-->
+	<BUTTON item="ScreenShotDelete" parent="ScreenShot">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>16</X>
+			<Y>250</Y>
+			<W>133</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>Delete (&amp;D)</TEXT>
+		<CONFIRMMESSAGE>Would you like to delete this screenshot?</CONFIRMMESSAGE>
+		<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+	</BUTTON>	
+
+	<!-- BUTTON : 리플레이 보기 버튼-->
+	<BUTTON item="ViewScreenShot" parent="ScreenShot">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>215</X>
+			<Y>250</Y>
+			<W>133</W>
+			<H>32</H>
+		</BOUNDS>
+		<DEFAULTKEY>ENTER</DEFAULTKEY>
+		<TEXT>View (&amp;V)</TEXT> <!-- 보기(&amp;V) -->
+		<CONFIRMMESSAGE>Are you sure you want to see the screenshot?</CONFIRMMESSAGE>
+		<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
+	</BUTTON>
+
+	<!-- BUTTON : 종료 버튼-->
+	<BUTTON item="ExitScreenShot" parent="ScreenShot">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>352</X>
+			<Y>250</Y>
+			<W>133</W>
+			<H>32</H>
+		</BOUNDS>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+		<TEXT>Close (&amp;C)</TEXT>
+	</BUTTON>
+	
+	<FRAME item="ScreenShotPictureFrame" parent="ScreenShotPictureFrame">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>500</W>
+			<H>520</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<VISIBLE>false</VISIBLE>
+	</FRAME>
+	<BUTTON item="ExitScreenShotPicture" parent="ScreenShotPictureFrame">
+		<BOUNDS>
+			<X>475</X>
+			<Y>20</Y>
+			<W>25</W>
+			<H>25</H>
+		</BOUNDS>
+		<TEXT>X</TEXT>
+	</BUTTON>
+	<BUTTON item="NextScreenShotPicture" parent="ScreenShotPictureFrame">
+		<BOUNDS>
+			<X>445</X>
+			<Y>20</Y>
+			<W>25</W>
+			<H>25</H>
+		</BOUNDS>
+		<TEXT>></TEXT>
+	</BUTTON>	
+	<BUTTON item="PrevScreenShotPicture" parent="ScreenShotPictureFrame">
+		<BOUNDS>
+			<X>415</X>
+			<Y>20</Y>
+			<W>25</W>
+			<H>25</H>
+		</BOUNDS>
+	</BUTTON>		
+	<PICTURE item="ScreenShotPicture" parent="ScreenShotPictureFrame">
+		<BOUNDS>
+			<X>0</X>
+			<Y>46</Y>
+			<W>500</W>
+			<H>468</H>
+		</BOUNDS>
+		<STRETCH/>
+	</PICTURE>
+	
+	<FRAME item="ScreenShotConfirm">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>350</W>
+			<H>150</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<VISIBLE>false</VISIBLE>
+		<RESIZABLE>false</RESIZABLE>
+		<TEXT>Screenshot</TEXT> <!-- 리플레이 다시 보기 -->
+	</FRAME>
+	
+	<BUTTON item="ScreenshotOkButton" parent="ScreenShotConfirm">
+		<BOUNDS>
+			<X>130</X>
+			<Y>103</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>View (&amp;V)</TEXT>
+	</BUTTON>
+
+	<BUTTON item="Exit" parent="ScreenShotConfirm">
+		<BOUNDS>
+			<X>233</X>
+			<Y>103</Y>
+			<W>100</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>Exit (&amp;X)</TEXT>
+	</BUTTON>
+</XML>

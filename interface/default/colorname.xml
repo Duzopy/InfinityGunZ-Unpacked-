@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Color Name Purchase Interface Dialog -->
+<!-- Location: assets/Client/interface/default/colorname.xml -->
+
+<XML ID="ColorName">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	
+	<!-- FRAME: Main Color Name Purchase Frame -->
+	<FRAME item="ColorNameFrame">
+		<FRAMELOOK>DefaultFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>400</W>
+			<H>260</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT>Buy Color Name</TEXT>
+	</FRAME>
+
+	<!-- Red Slider -->
+	<LABEL item="ColorName_RedLabel" parent="ColorNameFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>100</G>
+			<B>100</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>30</X>
+			<Y>30</Y>
+			<W>30</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>R:</TEXT>
+	</LABEL>
+
+	<BUTTON item="ColorName_RedDecButton" parent="ColorNameFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>65</X>
+			<Y>30</Y>
+			<W>25</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>-</TEXT>
+	</BUTTON>
+
+	<SLIDER item="ColorName_RedSlider" parent="ColorNameFrame">
+		<BOUNDS>
+			<X>95</X>
+			<Y>30</Y>
+			<W>120</W>
+			<H>20</H>
+		</BOUNDS>
+		<RANGE>
+			<MIN>0</MIN>
+			<MAX>255</MAX>
+		</RANGE>
+		<VALUE>255</VALUE>
+		<ORIENTATION>horizontal</ORIENTATION>
+	</SLIDER>
+
+	<BUTTON item="ColorName_RedIncButton" parent="ColorNameFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>220</X>
+			<Y>30</Y>
+			<W>25</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>+</TEXT>
+	</BUTTON>
+
+	<LABEL item="ColorName_RedValue" parent="ColorNameFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>250</X>
+			<Y>30</Y>
+			<W>50</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+		</TEXTALIGN>
+		<TEXT>255</TEXT>
+	</LABEL>
+
+	<!-- Green Slider -->
+	<LABEL item="ColorName_GreenLabel" parent="ColorNameFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>100</R>
+			<G>255</G>
+			<B>100</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>30</X>
+			<Y>60</Y>
+			<W>30</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>G:</TEXT>
+	</LABEL>
+
+	<BUTTON item="ColorName_GreenDecButton" parent="ColorNameFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>65</X>
+			<Y>60</Y>
+			<W>25</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>-</TEXT>
+	</BUTTON>
+
+	<SLIDER item="ColorName_GreenSlider" parent="ColorNameFrame">
+		<BOUNDS>
+			<X>95</X>
+			<Y>60</Y>
+			<W>120</W>
+			<H>20</H>
+		</BOUNDS>
+		<RANGE>
+			<MIN>0</MIN>
+			<MAX>255</MAX>
+		</RANGE>
+		<VALUE>255</VALUE>
+		<ORIENTATION>horizontal</ORIENTATION>
+	</SLIDER>
+
+	<BUTTON item="ColorName_GreenIncButton" parent="ColorNameFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>220</X>
+			<Y>60</Y>
+			<W>25</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>+</TEXT>
+	</BUTTON>
+
+	<LABEL item="ColorName_GreenValue" parent="ColorNameFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>250</X>
+			<Y>60</Y>
+			<W>50</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+		</TEXTALIGN>
+		<TEXT>255</TEXT>
+	</LABEL>
+
+	<!-- Blue Slider -->
+	<LABEL item="ColorName_BlueLabel" parent="ColorNameFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>100</R>
+			<G>100</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>30</X>
+			<Y>90</Y>
+			<W>30</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>B:</TEXT>
+	</LABEL>
+
+	<BUTTON item="ColorName_BlueDecButton" parent="ColorNameFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>65</X>
+			<Y>90</Y>
+			<W>25</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>-</TEXT>
+	</BUTTON>
+
+	<SLIDER item="ColorName_BlueSlider" parent="ColorNameFrame">
+		<BOUNDS>
+			<X>95</X>
+			<Y>90</Y>
+			<W>120</W>
+			<H>20</H>
+		</BOUNDS>
+		<RANGE>
+			<MIN>0</MIN>
+			<MAX>255</MAX>
+		</RANGE>
+		<VALUE>255</VALUE>
+		<ORIENTATION>horizontal</ORIENTATION>
+	</SLIDER>
+
+	<BUTTON item="ColorName_BlueIncButton" parent="ColorNameFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>220</X>
+			<Y>90</Y>
+			<W>25</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXT>+</TEXT>
+	</BUTTON>
+
+	<LABEL item="ColorName_BlueValue" parent="ColorNameFrame">
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>250</X>
+			<Y>90</Y>
+			<W>50</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+		</TEXTALIGN>
+		<TEXT>255</TEXT>
+	</LABEL>
+
+	<!-- Character Name Display -->
+	<LABEL item="ColorName_CharacterNameLabel" parent="ColorNameFrame">
+		<FONT>FONTb11b</FONT>
+		<TEXTCOLOR>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>20</X>
+			<Y>130</Y>
+			<W>400</W>
+			<H>30</H>
+		</BOUNDS>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+		</TEXTALIGN>
+		<TEXT>Character Name</TEXT>
+	</LABEL>
+
+	<!-- Price Info -->
+	<LABEL item="ColorName_PriceInfo" parent="ColorNameFrame">
+		<FONT>FONTa10b</FONT>
+		<TEXTCOLOR>
+			<R>200</R>
+			<G>200</G>
+			<B>200</B>
+		</TEXTCOLOR>
+		<BOUNDS>
+			<X>20</X>
+			<Y>170</Y>
+			<W>400</W>
+			<H>20</H>
+		</BOUNDS>
+		<TEXTALIGN>
+			<HALIGN>center</HALIGN>
+		</TEXTALIGN>
+		<TEXT>Cost: 500 Cash (applies to all your characters)</TEXT>
+	</LABEL>
+
+	<!-- Buttons -->
+	<BUTTON item="ColorName_BuyButton" parent="ColorNameFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>70</X>
+			<Y>210</Y>
+			<W>120</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>Buy Color Name</TEXT>
+	</BUTTON>
+
+	<BUTTON item="ColorName_CloseButton" parent="ColorNameFrame">
+		<BUTTONLOOK>NormalButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>210</X>
+			<Y>210</Y>
+			<W>120</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>Close</TEXT>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+	</BUTTON>
+
+</XML>

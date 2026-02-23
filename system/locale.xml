@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<LOCALE>
+ 		<COUNTRY>BRZ</COUNTRY>
+		<LANGUAGE>USA</LANGUAGE>
+		<MAXPLAYERS>32</MAXPLAYERS>
+		<SELECTABLE_LANGUAGES>
+	        <LANGUAGE id="USA" name="English" />
+		</SELECTABLE_LANGUAGES>
+	</LOCALE>
+</XML>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--
+What each variable in the element indicates:
+
+id = unique value assigned to each achievement.
+type = same as gametype as defined in the source.
+title/desc/requirement = self explanatory.
+
+0 through 19 are reserved for gamemodes, anything after that can be specifically for achievements such as leveling up, time based achievements, etc....
+-->
+
+<XML id="achievements">
+	<ACHIEVEMENT id="1" type="10" title="10 Duel Streak" desc="Win 10 consecutive duels" requirement="10"/>
+	<ACHIEVEMENT id="2" type="10" title="20 Duel Streak" desc="Win 20 consecutive duels" requirement="20"/>
+	<ACHIEVEMENT id="3" type="10" title="30 Duel Streak" desc="Win 30 consecutive duels" requirement="30"/>
+</XML>

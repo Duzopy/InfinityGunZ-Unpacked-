@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XML>
+	<SMOKE NAME="smk_ss_01.elu" DIRECTION="240" POWER="900.0" DELAY="150" SIZE="50.0">	</SMOKE>
+        <SMOKE NAME="smk_ss_02.elu" DIRECTION="240" POWER="900.0" DELAY="150" SIZE="50.0">	</SMOKE>
+	<SMOKE NAME="smk_ss_03.elu" DIRECTION="240" POWER="900.0" DELAY="150" SIZE="50.0">	</SMOKE>
+	<SMOKE NAME="smk_ss_04.elu" DIRECTION="240" POWER="900.0" DELAY="150" SIZE="50.0">	</SMOKE>
+
+</XML>

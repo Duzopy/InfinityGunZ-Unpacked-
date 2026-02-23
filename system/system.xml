@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" ?>
+<XML>
+	<XMLHEADER>version="1.0"</XMLHEADER>
+
+	<SKIN>Default</SKIN>
+
+	<DEFFONT></DEFFONT>
+
+	<IME>false</IME>
+
+	<BAREPORT>
+		<ADDR>www.battlearena.com</ADDR>
+		<DIR>incoming/gunz_US</DIR>
+	</BAREPORT>
+
+	<EMBLEM_URL>https://infinitygunz.net/clan/upload/</EMBLEM_URL>
+	<TEMBLEM_URL>https://infinitygunz.net/clan/upload/</TEMBLEM_URL>
+
+	<CASHSHOP_URL>https://infinitygunz.net</CASHSHOP_URL>
+
+	<HOMEPAGE>
+	    <URL>https://infinitygunz.net</URL>
+	    <TITLE>GunZ the Dual</TITLE>
+	</HOMEPAGE>
+
+	<LOCATORLIST>
+		<LOCATOR id="1" IP="69.166.231.32" />
+	</LOCATORLIST>
+
+	<TLOCATORLIST>
+		<LOCATOR id="1" IP="69.166.231.32" />
+	</TLOCATORLIST>
+</XML>

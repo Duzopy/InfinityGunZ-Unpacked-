@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<XML>
+	<GAMETYPE id="solo">
+		<SPAWN item="blueflag" timesec="45000">
+			<POSITION>-2192 5132 -956</POSITION>
+		</SPAWN>
+		<SPAWN item="redflag" timesec="45000">
+			<POSITION>843 -3958 -635</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>-3345 3529 -891</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>-3206 2635 -706</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>-3272 3077 -797</POSITION>
+		</SPAWN>
+		<SPAWN item="bullet02" timesec="45000">
+			<POSITION>2267 5632 -635</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="30000">
+			<POSITION>-3952 -400 -556</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="30000">
+			<POSITION>1222 -1463 -636</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="30000">
+			<POSITION>1222 -1814 -636</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="30000">
+			<POSITION>1222 -2194 -636</POSITION>
+		</SPAWN>
+		<SPAWN item="bullet02" timesec="45000">
+			<POSITION>-5253 -1385 -639</POSITION>
+		</SPAWN>
+</GAMETYPE><GAMETYPE id="team">
+		<SPAWN item="blueflag" timesec="45000">
+			<POSITION>-2192 5132 -956</POSITION>
+		</SPAWN>
+		<SPAWN item="redflag" timesec="45000">
+			<POSITION>843 -3958 -635</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="30000">
+			<POSITION>-4512 3525 -894</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="30000">
+			<POSITION>-4512 3076 -798</POSITION>
+		</SPAWN>
+		<SPAWN item="ap02" timesec="30000">
+			<POSITION>-4512 2635 -704</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>1907 495 -555</POSITION>
+		</SPAWN>
+		<SPAWN item="bullet02" timesec="45000">
+			<POSITION>-1152 -948 -316</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>2267 5632 -634</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>1821 5632 -634</POSITION>
+		</SPAWN>
+		<SPAWN item="hp02" timesec="30000">
+			<POSITION>1389 5632 -634</POSITION>
+		</SPAWN>
+		<SPAWN item="bullet02" timesec="45000">
+			<POSITION>-53 2391 -635</POSITION>
+		</SPAWN>
+</GAMETYPE>
+</XML>

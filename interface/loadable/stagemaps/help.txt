@@ -1,0 +1,1 @@
+When adding a map you should place here the map image as 'bmp' file to show on the stage.

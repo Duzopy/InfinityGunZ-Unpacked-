@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XML ID="ChannelList">
+	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
+	<FRAME item="ChannelListFrame">
+		<FRAMELOOK>NullFrameLook</FRAMELOOK>
+		<BOUNDS>
+			<X>0</X>
+			<Y>150</Y>
+			<W>220</W>
+			<H>320</H>
+		</BOUNDS>
+		<ALIGN>
+			<HALIGN>center</HALIGN>
+			<VALIGN>center</VALIGN>
+		</ALIGN>
+		<RESIZABLE>false</RESIZABLE>
+		<VISIBLE>false</VISIBLE>
+		<TEXT></TEXT>
+	</FRAME>
+	
+	<PICTURE item="C_Frame" parent="ChannelListFrame">
+		<BOUNDS>
+			<X>0</X>
+			<Y>0</Y>
+			<W>220</W>
+			<H>320</H>
+		</BOUNDS>
+		<STRETCH/>
+		<BITMAP>cframe.png</BITMAP>
+	</PICTURE>	
+	
+	<BUTTON item="MainChannel" parent="ChannelListFrame">	
+		<BUTTONLOOK>BotonCustom</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>22</X>
+			<Y>12</Y>
+			<W>176</W>
+			<H>35</H>
+		</BOUNDS>
+		<TEXT>Main</TEXT>
+	</BUTTON>
+
+	<BUTTON item="EventChannel" parent="ChannelListFrame">	
+		<BUTTONLOOK>BotonCustom</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>22</X>
+			<Y>68</Y>
+			<W>176</W>
+			<H>35</H>
+		</BOUNDS>
+		<TEXT>Event</TEXT>
+	</BUTTON>
+	
+	<BUTTON item="PlayerWarsChannel" parent="ChannelListFrame">	
+		<BUTTONLOOK>BotonCustom</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>22</X>
+			<Y>124</Y>
+			<W>176</W>
+			<H>35</H>
+		</BOUNDS>
+		<TEXT>Ladder</TEXT>
+	</BUTTON>	
+			
+	<LISTBOX item="ChannelList" parent="ChannelListFrame">
+		<LISTBOXLOOK>NullListBoxLook</LISTBOXLOOK>
+		<FONT>FONTa9</FONT>
+		<TEXTCOLOR>
+			<R>205</R>
+			<G>205</G>
+			<B>205</B>
+		</TEXTCOLOR>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>22</X>
+			<Y>180</Y>
+			<W>176</W>
+			<H>80</H>
+		</BOUNDS>
+		<ITEMHEIGHT>20</ITEMHEIGHT>
+		<TEXTALIGN>
+			<VALIGN>center</VALIGN>
+		</TEXTALIGN>
+	</LISTBOX>
+
+	<BUTTON item="MyClanChannel" parent="ChannelListFrame">
+		<BUTTONLOOK>BotonCustom</BUTTONLOOK>
+		<BOUNDS>
+			<X>22</X>
+			<Y>265</Y>
+			<W>176</W>
+			<H>35</H>
+		</BOUNDS>
+		<TEXT>Go to my clan channel</TEXT>
+		<VISIBLE>false</VISIBLE>
+	</BUTTON>
+	
+	<BUTTON item="ChannelListClose" parent="ChannelListFrame">
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<BOUNDS>
+			<X>1</X>
+			<Y>1</Y>
+			<W>1</W>
+			<H>1</H>
+		</BOUNDS>
+		<DEFAULTKEY>ESC</DEFAULTKEY>
+		<TEXT></TEXT>
+		<FOCUSABLE>FALSE</FOCUSABLE>
+	</BUTTON>	
+		
+</XML>
