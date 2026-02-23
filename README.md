@@ -1,2 +1,1 @@
-# InfinityGunZ-Unpacked-
-InfinityGunZ (Unpacked)
+# InfinityGunZ Unpacked
